@@ -1,0 +1,60 @@
+.header{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+
+	.logo_phorrer ,.logo_voldmord {
+		width: 10%;
+		
+		img {
+			width: 100%;
+			border-radius: 50%;
+			transition: all 150ms ease-in 0s;
+
+			&:hover {
+				opacity: 0.8;
+				transform: scale(1.1);
+			}
+			
+		}
+
+
+		
+	}
+
+	.nav_bar {
+		width: 60%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: white;
+			transition: all 150ms ease-in 0s;
+			font-family: Roboto, Helvetica, Arial, sans-serif;
+			letter-spacing: 1.5px;
+
+		}
+
+		a:hover {
+			color: red;
+			transform: scale(1.1);
+		}
+
+		
+		
+		input{
+			width: 20%;
+			height: 20px;
+			border-radius: 15px;
+			padding: 5px;
+			outline: none;
+			
+		}
+	}
+}

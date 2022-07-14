@@ -1,0 +1,28 @@
+.home_user{
+	display: flex;
+	flex-wrap: wrap;
+
+	.home_user_info {
+
+		margin: 10px;
+
+		.home_image_info {
+			width: 80px;
+
+			img {
+				width: 100%;
+				cursor: pointer;
+			}
+		}
+		p {
+			color: white;
+			font-size: 10px;
+			text-align: center;
+		}
+
+		&:hover {
+			transform: scale(1.5);
+		}
+	}
+
+}
